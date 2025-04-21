@@ -49,5 +49,8 @@ const onClick = () => {
         <Icon name="uil:github"/>
       </div>
     </div>
+    <div class="py-6">>
+      <hls-video src="http://localhost:5001/api/videos/hls-a80e15cd-bda1-4a95-8a01-331955b5e4b9/index.m3u8" autoplay muted></hls-video>
+    </div>
   </div>
 </template>
